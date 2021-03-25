@@ -121,7 +121,7 @@ class Population:
         people = []
         for p in self.population:
             if p.camp == camp:
-                people.append(camp)
+                people.append(p)
         return people
 
     def read_people(self, lines):

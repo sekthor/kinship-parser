@@ -3,6 +3,7 @@ class Person:
     def __init__(self, person_id, age, sex, camp):
 
         assert isinstance(person_id, int)
+        assert isinstance(age, int)
         self.person_id = person_id
         self.age = age
         self.sex = sex

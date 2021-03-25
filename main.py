@@ -1,5 +1,6 @@
 from Population import Population
 from Kinship import Kinship
+from PopulationGraph import PopulationGraph
 
 
 # main method
@@ -9,7 +10,10 @@ def main():
     population = Population()
     population.read_population_from_file(file_path)
 
-    print(population)
+    graph = PopulationGraph(population)
+    graph.plot_graph()
+
+
 
 
     
