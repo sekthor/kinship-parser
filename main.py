@@ -8,7 +8,6 @@ def main():
 
     population = Population()
     population.read_population_from_file(file_path)
-    population.process_kinships_children()
 
     print(population)
 
